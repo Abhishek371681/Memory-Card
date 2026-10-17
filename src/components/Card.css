@@ -1,0 +1,7 @@
+.card .card-name {
+  color: #ffeb3b;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}

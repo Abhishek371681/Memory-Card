@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Pokemon Solid";
+  src: url("../assets/Pokemon%20Solid.ttf") format("truetype");
+  font-display: swap;
+}
+
+.scoreboard-title {
+  margin: 8px 0 20px;
+  color: #ffeb3b;
+  font-family: "Pokemon Solid", sans-serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  text-align: center;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 8px auto 24px;
+  padding: 12px 20px;
+  border: 2px solid #ffeb3b;
+  border-radius: 12px;
+  background: rgb(0 0 50 / 35%);
+}
+
+.scoreboard p {
+  margin: 0;
+  color: white;
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .scoreboard {
+    gap: 16px;
+    padding: 10px 14px;
+  }
+}
